@@ -1,0 +1,96 @@
+        AI-POWERED STOCK MARKET TREND PREDICTION SYSTEM
+
+PROJECT OVERVIEW
+
+This project develops an AI-powered Stock Market Trend Prediction System
+by combining historical stock market data with financial sentiment analysis.
+The objective is to predict future stock market trends using machine
+learning models enhanced with transformer-based NLP techniques.
+
+PROJECT WORKFLOW
+
+1. Loaded and explored the stock market dataset.
+2. Performed data preprocessing and cleaning.
+3. Engineered features from stock price indicators.
+4. Applied Label Encoding for categorical variables.
+5. Performed Exploratory Data Analysis (EDA).
+6. Split the dataset into training and testing sets.
+7. Applied feature scaling using StandardScaler.
+8. Trained multiple Machine Learning models.
+9. Compared model performances.
+10. Integrated FinBERT for financial sentiment analysis.
+11. Saved the best-performing model for future predictions.
+
+DATASET FEATURES
+
+• Open Price
+• High Price
+• Low Price
+• Close Price
+• Adjusted Close Price
+• Trading Volume
+• Company Name
+• Financial Score
+• Sentiment Score
+• Financial News / Cleaned Text
+
+MACHINE LEARNING MODELS
+
+✓ Logistic Regression
+✓ Decision Tree
+✓ Random Forest
+✓ Gradient Boosting
+✓ XGBoost
+✓ LightGBM
+
+FINBERT INTEGRATION
+
+✓ Loaded the pre-trained FinBERT transformer model.
+✓ Generated financial sentiment labels from news text.
+✓ Generated confidence scores for sentiment predictions.
+✓ Demonstrated transformer-based financial sentiment analysis
+  on a representative subset of the dataset.
+
+MODEL PERFORMANCE
+
+Logistic Regression : 61.97%
+Decision Tree       : 77.05%
+Random Forest       : 91.30%
+Gradient Boosting   : 76.39%
+XGBoost             : 81.07%
+LightGBM            : 83.76%
+
+BEST MODEL
+
+Random Forest achieved the highest accuracy of 91.30%.
+
+KEY ACHIEVEMENTS
+
+✓ Successfully built a complete stock trend prediction pipeline.
+✓ Compared six different machine learning algorithms.
+✓ Performed feature engineering and visualization.
+✓ Integrated FinBERT for financial sentiment analysis.
+✓ Evaluated models using classification metrics and confusion matrix.
+✓ Saved the trained model for future prediction.
+
+CONCLUSION
+
+The project demonstrates that combining historical stock market indicators
+with financial sentiment information enables effective stock trend prediction.
+Among all evaluated models, Random Forest delivered the best performance
+with an accuracy of 91.30%. FinBERT integration further showcases how
+transformer-based financial NLP can be incorporated into stock prediction
+workflows.
+
+FUTURE SCOPE
+
+• Process the complete dataset using FinBERT with GPU acceleration.
+• Integrate live financial news and Yahoo Finance API.
+• Build a real-time Streamlit dashboard.
+• Explore LSTM, GRU and Transformer-based forecasting models.
+• Deploy the model using Flask or FastAPI.
+
+
+            PROJECT COMPLETED SUCCESSFULLY
+
+
